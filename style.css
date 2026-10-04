@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; --ink: #1a1a2e; --muted: #5c5c70; --paper: #f7f7fa; --card: #fff; --accent: #3d3da8; }
+@media (prefers-color-scheme: dark) { :root { --ink: #f2f2f7; --muted: #a0a0b4; --paper: #101018; --card: #1a1a24; --accent: #9b9bff; } }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 -apple-system, "Sukhumvit Set", "Thonburi", system-ui, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+h1 { font-size: 2rem; margin: 0 0 .25rem; } h2 { font-size: 1.25rem; margin-top: 2rem; }
+p, li { color: var(--ink); } .muted { color: var(--muted); font-size: .9rem; }
+a { color: var(--accent); } nav a { margin-right: 1rem; }
+section.card { background: var(--card); border-radius: 16px; padding: 1rem 1.25rem; margin: 1.25rem 0; }
